@@ -171,7 +171,7 @@
       </p>
 
       <p>
-	The Working Group will work collaboratively with other groups to identify threats to user privacy and human rights, and will work to identify the appropriate ways to mitigate as many of those threats as practical at the layer of the features this group is standardizing. These mitigations may be technical constraints in this Working Group's features or information these features require to be visible to user agents, so that those user agents can compete on the appropriate mitigations
+	The Working Group will work collaboratively with other groups to identify the threats that digital credentials pose to user privacy and human rights, and will work to identify the appropriate ways to mitigate as many of those threats as practical at the layer of the features this group is standardizing. These mitigations may be technical constraints in this Working Group's features or information these features require to be visible to user agents, so that those user agents can compete on the appropriate mitigations.
 	</p>
       
       <p>
@@ -257,13 +257,16 @@
                 Web Incubator Community Group</a>
             </p>
           </dd>
-      </dl>
-        <dl>
-        <dt id="digid-considerations" class="note">Digital Credentials Considerations, a Note</dt>
-        <dd>
-          <p>A joint deliverable with the Verifiable Credentials WG and the Privacy WG, to describe a threat model and ecosystem-wide constraints on digital credential software.
+	</dl>
 
-            <p class="draft-status"><b>Initial Draft:</b> <a href="https://github.com/w3cping/credential-considerations/blob/main/credentials-considerations.md/">Draft in the PING</a>
+If the Group produces a specification for a Digital Credentials API, it will also produce the following joint Note with the Verifiable Credentials WG and the Privacy WG:
+	
+        <dl>
+        <dt id="digid-considerations" class="note">User considerations for credential presentation on the Web</dt>
+        <dd>
+          <p>This document will describe a user-centric threat model and guidelines for digital credential software that operates over the Web.
+
+            <p class="draft-status"><b>Initial Draft:</b> <a href="https://github.com/w3cping/credential-considerations/blob/main/credentials-considerations.md/">Draft in the Privacy Interest Group</a>
             </p>
 
 </p>
@@ -313,8 +316,7 @@
         <a href="https://www.w3.org/Consortium/Process/#implementation-experience">at least two independent
           interoperable
           implementations</a> of every feature defined in the specification, where
-        interoperability can be verified by passing open test suites, and two or
-        more implementations (distinct browser engines) interoperating with each other. In order to advance to
+        interoperability can be verified by passing open test suites that test the user agent's interaction with simulated Identity Providers, Relying Parties, Verifiers, Issuers, and Wallets. In order to advance to
         Proposed Recommendation, each normative specification must have an open
         test suite of every feature defined in the specification.
       </p>
@@ -393,6 +395,8 @@ ensure that the work of the two groups is not in conflict.</dd>
 <dd>The APA WG seeks to ensure that accessibility is kept front of mind, as authentication timing and the reliance on short term memory are known and thorny topics for people with disabilities. APA WG can represent these issues that have been raised in the Cognitive Accessibility (COGA) TF, and Accessibility Guidelines (AG) WG.
 <dt><a href="https://www.w3.org/groups/wg/vc/" rel="nofollow">Verifiable Credentials Working Group</a></dt>
 <dd>The VC WG is a likely venue for standardization of Data Model for Verifiable Credentials and they are an important stakeholder in the identity space to coordinate with.
+<dt><a href="https://w3c-ccg.github.io/" rel="nofollow">Credentials Community Group</a></dt>
+<dd>The Credentials CG has a diverse community with a history of thinking about the needs of credential stakeholders. This group will consult with them on the Digital Credentials deliverables.
   
 </dl>
       </section>
